@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1500px;
+    margin: 0 auto;
+    background: #FAF6EE;
+}
+.header{
+    width: 100%;
+    display: flex;
+    border-bottom: 0.3px solid black;
+}
+
+.nav__category{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__basket{
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.table__table{
+    font-size: 28px;
+    margin-left: 70px;
+    list-style-type: none;
+}
+
+.nav__logo{
+    font-size: 36px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav__table{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.nav__sales{
+    display: flex;
+    align-items: center;
+}
+
+.nav__search, .nav__product{
+    font-size: 28px;
+}
+
+.banner__text{
+    padding-left: 35px;
+    color: white;
+    padding-top: 35px;
+    font-size: 98px;
+    position: absolute;
+    z-index: 3;
+}
+.main__banner_lorem{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #111010;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main{
+    width: 100%;
+    background: #FAF6EE;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner__button{
+    background: #FFDB5B;
+    height: 57px;
+    border-radius: 1600px;
+    width: 300px;
+    margin-top: 500px;
+    margin-left: 35px;
+    position: absolute;
+    z-index: 3;
+}
+.main__arrow_button{
+    margin-left: 1150px;
+    margin-top: 570px;
+    width: 125px;
+    height: 125px;
+
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+}
+.main__banner_main{
+    width: 95%;
+    height: 640px;
+}
+
+.background-top{
+    width: 1377px;
+    height: 640px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: absolute;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.main__marque{
+    width: 100%;
+    background: #FAF6EE;}
+.marque__text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 150px;
+}
+.marque__img{
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 75px;
+}
+.cards{
+    width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.latest_articles__h1{
+    font-family:  'Nunito', sans-serif;
+    font-size: 8em;
+}
+
+.cards_div{
+    width: 95%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.cards__element, .cards__element_two, .cards__element_three{
+    display: flex;
+    width: 76%;
+    height: 350px;
+    flex-direction: column;
+    background-repeat: no-repeat; 
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: flex-end;
+    margin-left: 30PX;
+}
+
+.cards__element{
+    background-image: url('../img/10_tips.png');
+
+}
+
+.cards__element_two{
+    background-image: url('../img/trends.png');
+}
+
+.cards__element_three{
+    background-image: url('../img/start.png');
+}
+
+.cards_element__headlines{
+    width: 100%;
+    height: 50px;
+    background: #CAB5EB;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__headlines_p{
+    font-size: 24px;
+    font-family:  'Nunito', sans-serif;
+}
+
+
+.shop__h1-text{
+    font-size: 48px;
+    font-family:  'Nunito', sans-serif;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.shop__h1{
+    margin-bottom: 60px;
+    margin-top: 150px;
+    margin-left: 15px;
+}
+
+.shop__category{
+    width: 100%;
+    display: flex;
+    justify-content:  space-around;
+}
+
+.shop__element-vases{
+    width: 29%;
+    background-image: url('../img/vases.png');
+}
+
+.shop__element-cups{
+    width: 29%;
+    background-image: url('../img/cups.png');
+}
+
+.shop__element-plates{
+    width: 29%;
+    background-image: url('../img/plates.png');
+}
+
+.shop__element-cups, .shop__element-plates, .shop__element-vases{
+    background-repeat: no-repeat; 
+    height: 426px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 150px;
+}
+
+.shop__element-div{
+    width: 100%;
+    height: 142px;
+    background: #CAB5EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop__element-p{
+    font-size: 32px;
+    font-family:  'Nunito', sans-serif;
+}
+
+.main__banner{
+    margin-left: 63px;
+}
+
